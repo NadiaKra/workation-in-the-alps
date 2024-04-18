@@ -20,11 +20,19 @@ body {
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 0.5rem;
+    position: fixed;
+    width: 100%;
 }
 
 h1 {
     font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #3b3b3b;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* Main Content */
