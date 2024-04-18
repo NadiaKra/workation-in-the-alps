@@ -41,11 +41,11 @@ h1 {
 }
 
 #navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 nav a {
@@ -64,7 +64,6 @@ nav {
     background-color: #fff8dc;
     width: 100%;
     padding: 0;
-    
 }
 
 /* Main Content */
@@ -79,3 +78,40 @@ footer {
     background-color: lightgreen;
     margin-top: auto;
 }
+
+/* Media query: tablets and larger screens (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+   
+    #logo {
+        float: left;
+        display: block;
+        font-size: 210%;
+        line-height: 85px;
+    }
+
+    nav {
+        padding: 1rem 0;
+        float: right;
+        display: block;
+        position: relative;
+        width: fit-content;
+        background-color: #ffffff;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar > li {
+        padding: 1em;
+        border: 2px solid #393939;
+        background-color: beige;
+    }
+
+    nav a:hover {
+        font-weight: bold;
+    }
+}
+
