@@ -74,9 +74,24 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: lightgreen;
-    margin-top: auto;
+#contact {
+    text-align: center;
+    padding: 10px;
+    color:#393939;
+
+}
+
+#social-media {
+    display:flex;
+    text-align: center;
+    padding: 20px 10px;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 120%;
+    color: #393939;
 }
 
 /* Media query: tablets and larger screens (768px and up) */
@@ -118,5 +133,8 @@ footer {
     main {
         margin-top: 95px;
     }
+
+    /* Footer */
+
 }
 
