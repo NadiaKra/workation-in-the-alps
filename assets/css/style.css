@@ -61,16 +61,23 @@ nav a {
 }
 
 nav {
-    background-color: #fff8dc;
+    background-color: #ffffff;
     width: 100%;
     padding: 0;
 }
 
 /* Main Content */
 main {
-    background-color: lightblue;
     /* main takes surplus space to fill the page */
     flex: 1 0 auto;
+    margin-top: 180px;
+}
+
+/* Section home-image */
+#home-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/alps-village.webp") no-repeat center center/cover;
 }
 
 /* Footer */
