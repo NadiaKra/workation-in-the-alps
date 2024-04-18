@@ -88,7 +88,7 @@ footer {
         float: left;
         display: block;
         font-size: 210%;
-        line-height: 85px;
+        line-height: 80px;
     }
 
     nav {
@@ -112,6 +112,11 @@ footer {
 
     nav a:hover {
         font-weight: bold;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 95px;
     }
 }
 
