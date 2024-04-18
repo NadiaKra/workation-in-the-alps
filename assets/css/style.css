@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project style */
-    color: #000000;
+    color: #515151;
     font-family: "Quicksand", sans-serif;
 }
 
@@ -40,6 +40,19 @@ h1 {
     text-align: center;
 }
 
+#navbar {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    list-style: none;
+}
+
+#navbar > li {
+    margin-bottom: 0.5em;
+}
+
+.underline {
+    border-bottom: 1px solid #515151;
+}
 /* Main Content */
 main {
     background-color: lightblue;
