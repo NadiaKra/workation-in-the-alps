@@ -18,6 +18,23 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #393939;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #393939;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -29,15 +46,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: "Oswald", sans-serif;
-    font-size: 30px;
-    color: #393939;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
 }
 
 #navbar {
@@ -75,9 +83,18 @@ main {
 
 /* Section home-image */
 #home-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url("../images/alps-village.webp") no-repeat center center/cover;
+}
+
+#home-text {
+    background-color: rgba(233, 227, 217, 0.808);
+    position: absolute;
+    bottom: 70px;
+    min-height: 80px;
+    width: 100%;
+    padding: 10px;
 }
 
 /* Footer */
@@ -141,6 +158,9 @@ main {
         margin-top: 95px;
     }
 
+    #home-image {
+        height: 700px;
+        }
     /* Footer */
 
 }
