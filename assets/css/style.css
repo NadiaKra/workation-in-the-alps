@@ -36,12 +36,23 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    color: #393939;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
     padding: 0 0.5rem;
     position: fixed;
     width: 100%;
+    z-index: 90;
 }
 
 header a {
@@ -100,7 +111,24 @@ main {
     padding: 10px;
 }
 
+/* Section About us */
+
+#about-us {
+    height: 100%;
+    width: 100%;
+}
+
+.text-box {
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(233, 227, 217, 0.808);
+    box-shadow: 10px 5px 5px #393939;
+    text-align: center;
+    margin: 20px 0 0 20px;
+}
+
 /* Footer */
+
 #contact {
     text-align: center;
     padding: 10px;
@@ -177,6 +205,13 @@ main {
         bottom: 50px;
     }
 
+    /* Section about us */
+    .text-box {
+        font-size: 150%;
+    }
 
+    .text-box h3 {
+        font-size: 30px;
+    }
 }
 
