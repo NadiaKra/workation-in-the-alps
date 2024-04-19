@@ -33,6 +33,7 @@ h2 {
     color: #393939;
     letter-spacing: 1px;
     text-align: left;
+    text-transform: uppercase;
 }
 
 /* Header */
@@ -86,14 +87,16 @@ main {
     height: 400px;
     width: 100%;
     background: url("../images/alps-village.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 #home-text {
     background-color: rgba(233, 227, 217, 0.808);
+    border-radius: 0px 100px 0px 0px;
     position: absolute;
-    bottom: 70px;
+    bottom: 0px;
     min-height: 80px;
-    width: 100%;
+    width: 70%;
     padding: 10px;
 }
 
@@ -161,7 +164,19 @@ main {
     #home-image {
         height: 700px;
         }
-    /* Footer */
+
+    /* Section home-image */
+    
+    #home-big {
+        font-size: 50px;
+    }
+    
+    #home-text {
+        width: 300px;
+        border-radius:0px;
+        bottom: 50px;
+    }
+
 
 }
 
