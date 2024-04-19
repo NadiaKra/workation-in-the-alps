@@ -91,6 +91,7 @@ main {
     /* main takes surplus space to fill the page */
     flex: 1 0 auto;
     margin-top: 180px;
+    border-bottom: 2px solid #515151;
 }
 
 /* Section home-image */
@@ -124,16 +125,29 @@ main {
     background-color: rgba(233, 227, 217, 0.808);
     box-shadow: 10px 5px 5px #393939;
     text-align: center;
-    margin: 20px 0 20px 20px;
+    margin: 30px 0 30px 20px;
 }
 
 /* Section Gallery */
+
+#photos {
+    padding-bottom: 1.5em;
+}
 
 #photos img {
     width: 100%;
 }
 
+/* Section Coworking */
+
+#coworking {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
 /* Footer */
+
 
 #contact {
     text-align: center;
@@ -172,12 +186,14 @@ main {
     }
 
     nav {
+        margin-top: 8px;
         padding: 0.5rem 0;
         float: right;
         display: block;
         position: relative;
         width: fit-content;
         background-color: #ffffff;
+        font-size: 110%;
     }
 
     #navbar {
@@ -185,7 +201,7 @@ main {
     }
 
     #navbar > li {
-        padding: 1em;
+        padding: 0.5em;
         border: 2px solid #393939;
     }
 
@@ -217,12 +233,14 @@ main {
     /* Section about us */
     .text-box {
         font-size: 150%;
+        margin-left: 30px;
     }
 
     .text-box h3 {
         font-size: 30px;
     }
 
+      
     /* Footer */ 
     
     #contact, #social-media {
