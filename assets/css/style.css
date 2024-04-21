@@ -95,6 +95,7 @@ main {
     }
 
 /* Section home-image */
+
 #home-image {
     height: 400px;
     width: 100%;
@@ -151,9 +152,10 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
-.page-header {
+.page-header h2 {
     text-align: center;
     padding: 10px;
 }
@@ -219,6 +221,31 @@ main {
 
 .button-request:hover {
     background-color: #3b5347;
+}
+
+/* Section Booking */
+
+#booking {
+    padding: 10px;
+    background-color: aqua;
+}
+
+#booking h2, h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#booking p {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#booking-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/landscape-view.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 /* Footer */
@@ -328,6 +355,7 @@ main {
     #text-design {
         display: flex;
         flex-direction: row;
+        margin-top: 10px;
     }
 
     .text-container {
@@ -350,10 +378,14 @@ main {
 
     .part-two li {
         padding-bottom: 10px;
+        font-weight: bold;
     }
 
     .button-request {
-
+        margin-top: 10px;
+        height: 50px;
+        font-size: 30px;
+        min-width: 120px;
     }
     
     /* Footer */ 
