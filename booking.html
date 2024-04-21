@@ -44,10 +44,31 @@
                 <p> We're happy to hear about your ideas on all things about workation, coworking, gatherings, offsite
                     and other forms of playful-powerful get-togethers.
                     <br><strong>Write us an email or fill in this form for detailed info about our possibilities &
-                    availabilities.</strong>
+                        availabilities.</strong>
                 </p>
             </div>
-            <div id="booking-image">
+            <div id="booking-form">
+                <div id="booking-image"></div>
+                <form id="form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2>Contact us!</h2>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name" class="text-box" required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" class="text-box" required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email_address" id="email-address" class="text-box" required>
+                    <br>
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" name="phone_number" id="phone-number" class="text-box" required>
+                    <br>
+                    <label for="text-area">Write your request here</label>
+                    <textarea name="text_area" id="text-area"></textarea>
+                    <br>                            
+                    <button type="submit"class="button-request">Send Request</button>
+                </form>
+
             </div>
 
         </section>

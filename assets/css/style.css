@@ -241,12 +241,24 @@ main {
     text-align: justify;
 }
 
-#booking-image {
+#booking-form {
     height: 600px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
     background: url("../images/landscape-view.webp") no-repeat center center/cover;
     position: relative;
+    flex: 1;
 }
+
+#form {
+    background-color: aliceblue;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.65;
+}
+    
 
 /* Footer */
 
