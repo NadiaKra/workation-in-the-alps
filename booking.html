@@ -52,18 +52,24 @@
                 <div id="booking-image"></div>
                 <form id="form" method="POST" action="https://formdump.codeinstitute.net">
                     <h2>Contact us!</h2>
-                    <label for="first-name" class="title-box">First Name</label>
-                    <input type="text" name="first_name" id="first-name" class="text-box" required>
-                    <br>
-                    <label for="last-name" class="title-box">Last Name</label>
-                    <input type="text" name="last_name" id="last-name" class="text-box" required>
-                    <br>
-                    <label for="email-address" class="title-box">Email Address</label>
-                    <input type="email" name="email_address" id="email-address" class="text-box" required>
-                    <br>
-                    <label for="phone-number" class="title-box">Phone Number</label>
-                    <input type="tel" name="phone_number" id="phone-number" class="text-box">
-                    <br>
+                    <div class="format-form">
+                        <label for="first-name" class="title-box">First Name</label>
+                        <input type="text" name="first_name" id="first-name" class="text-box" required>
+                        <br>
+                        <label for="last-name" class="title-box">Last Name</label>
+                        <input type="text" name="last_name" id="last-name" class="text-box" required>
+                        <br>
+                    </div>
+                    <div class="format-form">
+                        <label for="email-address" class="title-box">Email Address</label>
+                        <input type="email" name="email_address" id="email-address" placeholder="test@test.com"
+                            class="text-box" required>
+                        <br>
+                        <label for="phone-number" class="title-box">Phone Number</label>
+                        <input type="tel" name="phone_number" id="phone-number" placeholder="+43 123-12345"
+                            class="text-box">
+                        <br>
+                    </div>
                     <div class="title-box">What are you interested in?</div>
                     <div id="checkbox-button">
                         <label for="coworking-button" class="title-box">Coworking</label>
@@ -73,7 +79,9 @@
                     </div>
                     <br>
                     <label for="text-area" class="title-box">Write your request here:</label>
-                    <textarea name="text_area" id="text-area" class="text-box" required></textarea>
+                    <textarea name="text_area" id="text-area"
+                        placeholder="Do you want to book a coworking space or workshop? For which date?"
+                        class="text-box" required></textarea>
                     <br>
                     <button type="submit" id="button-request-form" class="button-request">Send Request</button>
                 </form>
