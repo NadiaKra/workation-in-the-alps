@@ -11,8 +11,10 @@
 /* General styles */
 body {
     min-height: 100vh;
+    background-color: pink;
     display: flex;
     flex-direction: column;
+    width: 100%;
     /* Generic project style */
     color: #515151;
     font-family: "Quicksand", sans-serif;
@@ -91,23 +93,31 @@ nav {
 main {
     /* main takes surplus space to fill the page */
     flex: 1 0 auto;
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+    display: flex;
     margin-top: 137.7px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Section home-image */
 
 #home-image {
-    height: 400px;
     width: 100%;
     background: url("../images/alps-village.webp") no-repeat center center/cover;
-    position: relative;
+    min-height: 350px;  
 }
 
 #home-text {
     background-color: rgba(233, 227, 217, 0.808);
     border-radius: 0px 100px 0px 0px;
-    position: absolute;
-    bottom: 0px;
+    display: flex;
+    position: relative;
+    bottom: -241.2px;
     min-height: 80px;
     width: 70%;
     padding: 10px;
@@ -130,6 +140,10 @@ main {
 }
 
 /* Section Gallery */
+
+div#photos {
+    overflow: auto;
+}
 
 #photos {
     padding-bottom: 1.5em;
@@ -383,7 +397,7 @@ main {
     #home-text {
         width: 300px;
         border-radius: 0px;
-        bottom: 50px;
+        bottom: -350px;
     }
 
     /* Section about us */
