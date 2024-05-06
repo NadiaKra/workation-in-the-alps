@@ -11,7 +11,6 @@
 /* General styles */
 body {
     min-height: 100vh;
-    background-color: pink;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -93,7 +92,6 @@ nav {
 main {
     /* main takes surplus space to fill the page */
     flex: 1 0 auto;
-    background-color: orange;
     height: 100%;
     width: 100%;
     display: flex;
@@ -109,7 +107,7 @@ main {
 #home-image {
     width: 100%;
     background: url("../images/alps-village.webp") no-repeat center center/cover;
-    min-height: 350px;  
+    min-height: 350px;
 }
 
 #home-text {
@@ -146,8 +144,7 @@ main {
 
 #section-gallery {
     width: 80%;
-    max-height: 1400px;
-    
+
 }
 
 #photos {
@@ -160,6 +157,7 @@ main {
 
 #photos img {
     width: 100%;
+    max-height: 370px;
 }
 
 /* Section Coworking */
@@ -254,7 +252,8 @@ main {
 
 #booking h2 {
     text-align: center;
-    margin-bottom: 5px;}
+    margin-bottom: 5px;
+}
 
 #booking h2 {
     font-size: 30px;
@@ -304,7 +303,7 @@ main {
     height: 45px;
     border-radius: 5px;
     font-family: "Quicksand", sans-serif;
-    
+
 }
 
 
@@ -328,15 +327,26 @@ main {
 /* Footer */
 
 footer {
-width: 100%;
-max-height: 150px;
-background-color: aqua;
-display: flex;
-flex-direction: column;
+    width: 100%;
+    color: #393939;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: #393939;
+}
+
+footer a:hover {
+    background-color: rgba(233, 227, 217, 0.808);
 }
 
 .contact {
-text-align: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #social-media {
@@ -480,17 +490,17 @@ text-align: center;
         height: 600px;
     }
 
-    #button-request-form{
+    #button-request-form {
         max-width: 230px;
     }
-    
+
     #checkbox-button {
         display: inline;
     }
 
     /* Footer */
-
-    #contact,
+    
+    .contact,
     #social-media {
         font-size: 150%;
     }
