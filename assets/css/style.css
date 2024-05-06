@@ -10,6 +10,7 @@
 
 /* General styles */
 body {
+    background-color: pink;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -91,6 +92,7 @@ nav {
 /* Main Content */
 main {
     /* main takes surplus space to fill the page */
+    background-color: orange;
     flex: 1 0 auto;
     height: 100%;
     width: 100%;
@@ -244,6 +246,39 @@ main {
     background-color: #3b5347;
 }
 
+/* id included services */
+
+#included-services {
+    background-color: lightgreen;
+    width: 100%;
+    margin: 15px 0;
+}
+
+#included-services h3 {
+padding: 15px;
+}
+
+#included-services ul {
+    list-style-type: none;
+ }
+ 
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-box {
+    break-inside: avoid;
+    text-align: center;
+    padding: 5px;
+    min-width: 121px;
+}
+.service-icon {
+    font-size: 20px;
+}
+
+
 /* Section Booking */
 
 #booking {
@@ -327,6 +362,7 @@ main {
 /* Footer */
 
 footer {
+    background-color: aqua;
     width: 100%;
     color: #393939;
     display: flex;
@@ -478,6 +514,10 @@ footer a:hover {
         min-width: 120px;
     }
 
+    #included-services h3 {
+        font-size: 150%;
+    }
+    
     /* Section Booking */
 
     .format-form {
