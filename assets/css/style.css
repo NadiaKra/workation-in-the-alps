@@ -227,6 +227,7 @@ main {
     height: 40px;
     border: 3px solid #393939;
     background-color: #515151;
+    color: #ffffff;
     font-size: 20px;
     min-width: 100px;
     padding: 0 15px;
@@ -234,12 +235,6 @@ main {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    justify-content: center;
-}
-
-.button-request a {
-    text-decoration: none;
-    color: #ffffff;
 }
 
 .button-request:hover {
@@ -249,7 +244,8 @@ main {
 /* id included services */
 
 #included-services {
-    background-color: lightgreen;
+    background-color: rgba(233, 227, 217, 0.808);
+    border: 1px solid #515151;
     width: 100%;
     margin: 15px 0;
 }
@@ -278,6 +274,39 @@ padding: 15px;
     font-size: 20px;
 }
 
+/* Section Workshops */
+
+#workshops {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workshops-container {
+    background-color: lightcoral;
+}
+
+.workshops-description {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #393939;
+    max-width: 500px;
+}
+
+.workshops-image img {
+    width: 100%;
+}
+
+.workshops-text {
+    max-height: 332px;
+}
+
+.workshops-text h3, p {
+    padding: 5px;
+}
 
 /* Section Booking */
 
