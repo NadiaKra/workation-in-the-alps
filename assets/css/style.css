@@ -10,7 +10,6 @@
 
 /* General styles */
 body {
-    background-color: pink;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -92,7 +91,6 @@ nav {
 /* Main Content */
 main {
     /* main takes surplus space to fill the page */
-    background-color: orange;
     flex: 1 0 auto;
     height: 100%;
     width: 100%;
@@ -104,6 +102,11 @@ main {
     flex-direction: column;
 }
 
+.page-header {
+    text-align: justify;
+    padding: 20px;
+
+}
 /* Section home-image */
 
 #home-image {
@@ -285,16 +288,13 @@ padding: 15px;
     align-items: center;
 }
 
-.workshops-container {
-    background-color: lightcoral;
-}
-
 .workshops-description {
     display: flex;
     flex-direction: column;
     border: 2px solid #393939;
     max-width: 450px;
     margin-bottom: 10px;
+    background-color: rgba(233, 227, 217, 0.808);
 }
 
 .workshops-image img {
@@ -392,6 +392,7 @@ padding: 15px;
     color: #ffffff;
     max-width: 200px;
     left: 5px;
+    align-self: center;
 }
 
 #checkbox-button {
@@ -402,11 +403,11 @@ padding: 15px;
 /* Footer */
 
 footer {
-    background-color: aqua;
     width: 100%;
     color: #393939;
     display: flex;
     flex-direction: column;
+    border-top: 2px solid #515151;
 }
 
 footer a {
@@ -567,6 +568,10 @@ footer a:hover {
     }
 
     #booking-form {
+        height: 600px;
+    }
+
+    #form {
         height: 600px;
     }
 
