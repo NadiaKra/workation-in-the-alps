@@ -293,7 +293,7 @@ padding: 15px;
     display: flex;
     flex-direction: column;
     border: 2px solid #393939;
-    max-width: 500px;
+    max-width: 450px;
     margin-bottom: 10px;
 }
 
@@ -316,6 +316,7 @@ padding: 15px;
     display: flex;
     align-self: center;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 /* Section Booking */
@@ -606,5 +607,11 @@ footer a:hover {
         max-width: 32%;
     }
 
+    /* Section Workshops */
 
+    .workshops-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
