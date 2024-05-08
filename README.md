@@ -1,62 +1,70 @@
 # Workation in the Alps
 
-Workation in the Alps is a site that wants to offer the possibility for remote workers and entire teams to have all the infrastructure needed to work and at the same this to relax, find the balance and let the creativity flowing. On the Work in the Alps site users have the possibility to understand the concept of the workation village on the home page, they find information about the prices of the coworking spaces and a description of the workshops on the dedicated pages and at last users can send a form for requests and more information.
+Workation in the Alps is a website that wants to offer the possibility for remote workers and entire teams to have all the infrastructure needed to work and at the same this to relax, find the balance and let creativity flowing. Starting from the home page of the Work in the Alps site users have the possibility to understand the concept of the workation village and get some visual impressions about the place. At any time the users can switch to other pages to get more information about the coworking od workshops offer or switch directly to the booking form.
 
-![Responsice Mockup] - add screenshot "Am I Responsive here"
+![Responsive Design](./assets/images/screenshot-responsive-design.png)
 
 ## Features 
 
-The website "Workaktion in the Alps" has multiple features, in this section I provide an overview about each feature and its fuctionality. The two features "Navigation Bar" and "Footer" look the same way on all the pages. The site has in the sum 4 pages: Home page, Coworking page, Workshop page and the Booking page. With this 4 pages structure the user has the possibility to gain directly from the first landing paage all the information about what kind of information and action possibilities the website is providing.
+The website "Workaktion in the Alps" has multiple features, in this section I provide an overview about each feature and its fuctionality. The two features "Navigation Bar" and "Footer" look the same way on all the pages. The site has 4 pages: Home page, Coworking page, Workshops page and the Booking page. With this 4 pages structure the user has the possibility to gain directly from the first landing paage all the information about what kind of information and action possibilities the website is providing.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Features the pages "Coworking", "Workshops" and "Booking", the full responsive navigation bar includes links to the logo and to every single page.
+  - Features the pages "Workation in the Alps" "Coworking", "Workshops" and "Booking", the full responsive navigation bar includes links to the logo and to every single page.
   - This sections provides the user the possibility to change the page without the need to go back to the home page and to filter interesting information.
+  - The first image shows the NavBar for small screens and the second the NavBar for larger screens from 768px.
 
-![Nav Bar] screenshot
+![Nav Bar Small Screens](./assets/images/screenshhot-navbar-small.png) 
+
+![Nav Bar Large Screens](./assets/images/screenshhot-navbar-large.png) 
 
 - __Home page image__
 
   - The home page image is the workation village and will include also the claim "Work. Relax. In Nature" to communicate in a few words the philosopy of this place.
-  - This section should give the user a visual impression of the village and its uniqueness combination of work and nature. The goal is to gain the interest of the user, who wants at this point more information
+  - The user will have the possibliity to have the most of the image element as the claim box adapts the dimenson when screens become larger.
+  - This section should give the user a visual impression of the village and its uniqueness combination of work and nature. The goal is to gain the interest of the user, who wants at this point more information.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Home Page Image](./assets/images/screenshhot-homepage-image.png)
 
 - __About us Section__
 
   - The About Us section will provide information about the background and the story behind the the concept of Workation in the Alps. 
-  - The user will gain from the first moment the sense of community that should convice the user to choose this village for as the next remote working place.  
+  - The user will gain from the first moment the sense of community that should convice the user to choose this village as the next remote working place.  
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About us](./assets/images/screenshhot-aboutus.png)
 
 - __Gallery Section__
 
   - This section will highlight with pictures want the user has to aspect on site if booking. The attractive images should give a positive feeling to the user.
-  - The pictures are fully responsive and it is planned to change them regularly at least twice a year.
+  - The pictures are fully responsive and it is planned to change them regularly at least twice a year to have seasonal relevant pictures.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Gallery](./assets/images/screenshhot-gallery.png)
 
 - __The Footer__ 
 
-  - The footer section will include the contact information, the adress and to the relevant social media links. All the links will open to a new tab to allow easy navigation for the user. 
-  - The user gains in this section all the valuable information to get in touch and to stay in touch through social media. 
+  - The footer section will include the email contact information, the adress and the relevant social media links. All the links will open to a new tab to allow easy navigation for the user. 
+  - The user gains in this section all the valuable information to get in touch and find the geographical position of the village and to stay in touch through social media. 
+  - The footer will have a top-border to visualise the end of the main content.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](./assets/images/screenshot-footer.png)
 
 - __Coworking Page__
 
-  - The coworking page will be structured in a simple way to give only relevant information to the user about packages and prices.
-  - This user quickly understands the information provided and has the possibility to send directly a request. The send request button will bring the user directly to the booking form
+  - In this page the user will gain an overview about the prices and packages as well as the services included.
+  - The image is an important element as the user can visualize how the working place looks like.
+  - The user will quickly understand the information provided thanks to the simple page structure and will have the possibility to send directly a request. The send request button will bring the user directly to the booking form page.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Coworking Elements](./assets/images/screenshhot-coworking-elements.png)
 
 - __Workshops Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - In this page the user will see the offered workshop classes and will gain an overview about how they are structured.
+  - After each workshop description the user will have the possibility to click on the request button that redirects to the booking page.
+  - The user will have all information in a simple structured form.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Workshops Elements](./assets/images/screenshhot-workhsops-element.png)
 
 - __Booking Page__
 
@@ -142,3 +150,4 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
