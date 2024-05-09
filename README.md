@@ -68,17 +68,15 @@ The website "Workaktion in the Alps" has multiple features, in this section I pr
 
 - __Booking Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to send general requests. The user will be able specify if interested in "Coworking" or "Workshops" or both. The user will be asked to submit at least the full name, an email adress and a text regarding the request. 
+  - Placeholder text will guide the user to fill the form correctly and avoid missunderstandings.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Booking Form](./assets/images/screenshhot-booking-form.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- To make the main page more attractive the next implementation will be a video instead of the static picture to add value to the first impression.
+- The Booking Page will have in the next implementation date fields in order to give the user the possibility to add directly the wished period of stay. 
 
 ## Testing 
 
