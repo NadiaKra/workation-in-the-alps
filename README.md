@@ -6,14 +6,16 @@ Workation in the Alps is a website that wants to offer the possibility for remot
 
 ## Features 
 
-The website "Workaktion in the Alps" has multiple features, in this section I provide an overview about each feature and its fuctionality. The two features "Navigation Bar" and "Footer" look the same way on all the pages. The site has 4 pages: Home page, Coworking page, Workshops page and the Booking page. With this 4 pages structure the user has the possibility to gain directly from the first landing paage all the information about what kind of information and action possibilities the website is providing.
+The website "Workaktion in the Alps" has multiple features, in this section I provide an overview about each feature and its fuctionality. The two features "Navigation Bar" and "Footer" look the same way on all the pages. The site has 4 main pages: Home page, Coworking page, Workshops page and the Booking page. With this 4 pages structure the user has the possibility to gain directly from the first landing paage all the information about what kind of information and action possibilities the website is providing. 
+The last page called "Response" contains the response message, that user receive once sending the request form.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Features the pages "Workation in the Alps" "Coworking", "Workshops" and "Booking", the full responsive navigation bar includes links to the logo and to every single page.
+  - Features the pages "Home", "Coworking", "Workshops" and "Booking", the full responsive navigation bar includes links to the logo and to every single page.
   - This sections provides the user the possibility to change the page without the need to go back to the home page and to filter interesting information.
+  - "Home" was added to the NavBar in a second moment to improve user experience, as otherwise user would not know how to come back to the home page while navigating in one of the other pages.
   - The first image shows the NavBar for small screens and the second the NavBar for larger screens from 768px.
 
 ![Nav Bar Small Screens](./assets/images/screenshhot-navbar-small.png) 

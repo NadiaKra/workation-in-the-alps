@@ -233,17 +233,20 @@ main {
 }
 
 .button-request {
-    height: 40px;
     border: 3px solid #393939;
     background-color: #515151;
-    color: #ffffff;
+    height: 40px;
     font-size: 20px;
     min-width: 100px;
     padding: 0 15px;
     text-align: center;
     cursor: pointer;
-    display: inline-block;
     position: relative;
+}
+
+.button-request a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .button-request:hover {
