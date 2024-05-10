@@ -2,6 +2,8 @@
 
 Workation in the Alps is a website that wants to offer the possibility for remote workers and entire teams to have all the infrastructure needed to work and at the same this to relax, find the balance and let creativity flowing. Starting from the home page of the Work in the Alps site users have the possibility to understand the concept of the workation village and get some visual impressions about the place. At any time the users can switch to other pages to get more information about the coworking od workshops offer or switch directly to the booking form.
 
+The site can be reached by this <a href="https://nadiakra.github.io/workation-in-the-alps/" target="_blank">link.</a> 
+
 ![Responsive Design](./assets/images/screenshot-responsive-design.png)
 
 ## Features 
