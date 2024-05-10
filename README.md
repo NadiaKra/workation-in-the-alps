@@ -41,6 +41,7 @@ The last page called "Response" contains the response message, that user receive
 
   - This section will highlight with pictures want the user has to aspect on site if booking. The attractive images should give a positive feeling to the user.
   - The pictures are fully responsive and it is planned to change them regularly at least twice a year to have seasonal relevant pictures.
+  - The heading is not visible thanks to the display-none property in css, but reachable for seo reasons.
 
 ![Gallery](./assets/images/screenshhot-gallery.png)
 

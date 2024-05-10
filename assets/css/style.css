@@ -106,7 +106,6 @@ main {
 .page-header {
     text-align: justify;
     padding: 20px;
-
 }
 
 /* Section home-image */
@@ -151,7 +150,6 @@ main {
 
 #section-gallery {
     width: 80%;
-
 }
 
 #section-gallery h2 {
@@ -176,7 +174,6 @@ main {
 #coworking {
     width: 100%;
     height: auto;
-
 }
 
 #coworking-container {
@@ -315,6 +312,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    padding-left: 10px;
     margin: 10px 0;
 }
 
@@ -324,8 +322,6 @@ p {
 }
 
 .workshops-text a {
-    display: flex;
-    align-self: center;
     margin-top: 10px;
     text-decoration: none;
 }
@@ -458,7 +454,6 @@ footer a:hover {
     main{
         margin-top: 167px;
     }
-
 }
 
 /* Media query: tablets and larger screens (768px and up) */
