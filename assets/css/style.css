@@ -154,6 +154,10 @@ main {
 
 }
 
+#section-gallery h2 {
+    display:none;
+}
+
 #photos {
     display: flex;
     flex-wrap: wrap;
