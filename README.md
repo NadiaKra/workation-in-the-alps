@@ -6,6 +6,22 @@ The site can be reached by this <a href="https://nadiakra.github.io/workation-in
 
 ![Responsive Design](./assets/images/screenshot-responsive-design.png)
 
+## User Stories
+
+### First Time Visitor Goals
+- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the company and offered packages.
+- As a First Time Visitor, I want to have easy access to the content and through a well-structured site.
+- As a First Time Visitor, I want to see images of the location to have a visual overview about the place.
+
+### Returning Visitor Goals
+- As a Returning Visitor, I want to see information about workshops and coworking packages offered.
+- As a Returning Visitor, I want to get more details about the single products.
+- As a Returnig Visitor, I want to have a possibility to get in contact with the company to send a request for a coworking place or workshop.
+
+### Frequent Visitor Goals
+- As a Frequent Visitor, I want to have the possibility to ask particular questions regarding coworking and workshops.
+- As a Frequent Visitor, I want to see if there are changes in the offered packages.
+
 ## Features 
 
 The website "Workaktion in the Alps" has multiple features, in this section I provide an overview about each feature and its fuctionality. The two features "Navigation Bar" and "Footer" look the same way on all the pages. The site has 4 main pages: Home page, Coworking page, Workshops page and the Booking page. With this 4 pages structure the user has the possibility to gain directly from the first landing paage all the information about what kind of information and action possibilities the website is providing. 
@@ -78,10 +94,47 @@ The last page called "Response" contains the response message, that user receive
 
 ![Booking Form](./assets/images/screenshhot-booking-form.png)
 
+- __Response Page__
+
+  - This page appears after submitting the contact form. 
+  - The user receives a thank you for submitting message with the advice that the team will come back to the request as soon as possible.
+
+![Response Page](./assets/images/screenshhot-response.png)
+
 ### Features Left to Implement
 
 - To make the main page more attractive the next implementation will be a video instead of the static picture to add value to the first impression.
 - The Booking Page will have in the next implementation date fields in order to give the user the possibility to add directly the wished period of stay. 
+
+## Design
+### Colour Scheme
+
+The design used is based on neutral colours. As the site includes many images with different colour paths the user's attention should not be losed by a colour overload. 
+
+![Colour Scheme](./assets/images/screenshhot-color-scheme.png)
+
+- HEX colours #393939, #515151 and #000000 are used for text design
+- HEX colours #FFFFFF and #E9E3D9 are used for backgrounds. #E9E3D9 is used in the RBGA form with its transparency property.
+
+### Typhography
+
+To select the font the platform <a href="https://www.fontpair.co/all" target="_blank">Fontpair</a> was consulted.
+
+![Typography](./assets/images/screenshhot-typography.png)
+
+- Oswald Google Font was used to make headings catchy and increase the attractiveness of the site.
+- Quicksand Google Font was used as the main font of the site to assure the easy readibility of the content in the site.
+
+## Technology Used
+
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> was used as the base of the site.
+- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a> was used to style and add layouts to the site.
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">CSS Flexbox</a> was used to arrange items on the pages.
+- <a href="https://www.gitpod.io/" target="_blank">Gitpod</a> was used to develop the website.
+- <a href="https://github.com/" target="_blank">Github</a> was used to host the website.
+- <a href="https://imageresizer.com/" target="_blank">Imageresizer</a> was used to rezise images for the website and the READ.ME document.
+- <a href="https://cloudconvert.com/webp-converter" target="_blank">WEBP Converter</a> was used to convert images for the webpage to WEBP.
+- <a href="https://favicon.io/favicon-generator/" target="_blank">FavIcon Generator</a> was used to create the FavIcon for the site.
 
 ## Testing 
 
@@ -107,15 +160,12 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
+  - From the source section drop-down menu, select the __Main Branch__ and click "save".
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+The live link can be found here: <a href="https://nadiakra.github.io/workation-in-the-alps/" target="_blank">Workation in the Alps</a>
 
 ## Credits 
 
@@ -137,20 +187,5 @@ You can break the credits section up into Content and Media, depending on what y
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
 
