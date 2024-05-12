@@ -150,7 +150,7 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
   - Safari
   ![Safari](./assets/images/screenshhot-safari.png)
 
-- In order to test the correct __responsiveness__ by devtools in Chrome and Firefox. In addition __all the pages (Homepage, Coworking, Workshops, Booking and Response)__ checked in all the available screen sizes with the 
+- In order to test the correct __responsiveness__ devtools in Chrome and Firefox were userd. In addition __all the pages (Homepage, Coworking, Workshops, Booking and Response)__ were checked in all the available screen sizes with the 
   <a href="https://responsivedesignchecker.com/" target="_blank">Responsive Design Checker</a>
   Here are some images to prove the checks:
 
@@ -250,7 +250,19 @@ The Lightouse Tool has tested the accessibility and performance of each page.
 
 ### Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- __Solved Bugs__
+  - Home page main picture overlaps header when scrolling down --> Solution: add z-index to header.
+  - Photos in section gallery overflow the main --> Solution: add property overflow an set it to auto.
+  - Photos in section gallery in the media query from 992px are not on one raw --> Solution: resize images in the media query.
+  - Heading in section gallery is missing --> Solution: add heading in HTML and set to to hidden in css.
+  - With small screens until width 339 the header overflows the main section --> add new media query and adapt the margin-top property for main.
+
+- __Unsolved Bugs__
+  - None.
+
+### Mistakes and Lessons Learned
+
+At the beginning of the project were some mistakes done in setting the first css properties along the parent-descendent rule. I have learned to use different background colors for header, main, body and footer in the very first stage of the development to better understand how the different elements are working with the defined css properties. Another mistake at the beginning was the lack of structure as I didn't use Flexbox properties properly. I have learned during the project the importance of CSS structure.
 
 ## Deployment
 
@@ -263,18 +275,39 @@ The live link can be found here: <a href="https://nadiakra.github.io/workation-i
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+__Content__
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- Inspiration for the text and the home page came from [The Workation Village](https://www.theworkationvillage.com/)
+- Inspiration for Font Pairing came from [Fontpair](https://www.fontpair.co/all)
+- The icons in the footer and in the section "Coworking" were taken from [Font Awesome](https://fontawesome.com/)
 
-### Content 
+__Media__
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+All the images present on the website are from this open source site [Pexel](https://www.pexels.com/).
 
-### Media
+- __Home Page__, Section "home-image":
+  - Image 1: [Link to the Image on Pexel](https://www.pexels.com/photo/village-at-monte-lussari-in-alps-17942574/)
+- __Home Page__, Section "gallery":
+  - Image 2: [Link to the Image on Pexel](https://www.pexels.com/photo/photography-of-a-woman-meditating-906097/)
+  - Image 3: [Link to the Image on Pexel](https://www.pexels.com/photo/three-woman-sitting-on-white-chair-in-front-of-table-2041627/)
+  - Image 4: [Link to the Image on Pexel](https://www.pexels.com/photo/bedroom-interior-setup-271624/)
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- __Coworking page__
+  - Image 5: [Link to the Image on Pexel](https://www.pexels.com/photo/black-office-rolling-chair-beside-white-wooden-table-3712597/)
 
+- __Workshops page__
+  - Image 6: [Link to the Image on Pexel](https://www.pexels.com/photo/person-doing-thumbs-up-193821/)
+  - Image 7: [Link to the Image on Pexel](https://www.pexels.com/photo/woman-in-heels-walking-on-concrete-road-surrounded-with-tall-and-green-trees-2953581/)
+  - Image 8: [Link to the Image on Pexel](https://www.pexels.com/photo/women-performing-yoga-on-green-grass-near-trees-1472887/)
+  - Image 9: [Link to the Image on Pexel](https://www.pexels.com/photo/person-holding-clear-light-bulb-1314410/)
+
+- __Booking and Response page__
+  - Image 10: [Link to the Image on Pexel](https://www.pexels.com/photo/path-on-alpine-meadow-19124747/)
+
+__FavIcon__
+
+  - The FavIcon were created on [FavIcon Generator](https://favicon.io/favicon-generator/)
+
+## Acknowledgements
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova), my mentor for the professional way of supporting. She guided me during my very first deployed project showing me the direction without telling the solution, giving me the possibility to grow and gain experience.
+- [Code Institue](https://codeinstitute.net/global/) Tutors for their support.
