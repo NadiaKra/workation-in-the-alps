@@ -138,33 +138,117 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
 
 ## Testing 
 
+### Functionality and Responsiveness
+
 - In order to test the correct __funcionality__ the website was tested on following browser:
   - Chrome
   ![Chrome](./assets/images/screenshhot-chrome.png)
+
   - Firefox
   ![Firefox](./assets/images/screenshhot-firefox.png)
+
   - Safari
   ![Safari](./assets/images/screenshhot-safari.png)
 
-- In order to test the correct __responsiveness__ by devtools in Chrome and Firefox:
+- In order to test the correct __responsiveness__ by devtools in Chrome and Firefox. In addition __all the pages (Homepage, Coworking, Workshops, Booking and Response)__ checked in all the available screen sizes with the 
+  <a href="https://responsivedesignchecker.com/" target="_blank">Responsive Design Checker</a>
+  Here are some images to prove the checks:
 
- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+  - Chrome devtools, page Coworking, mobile: 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+  ![Coworking Mobilel](./assets/images/screenshhot-responsive-mobile-coworking.png)
+  
+  - Responsive Design Checker, page Booking, tablet: 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+  ![Booking Tablet](./assets/images/screenshhot-responsive-tablet-booking.png)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+  - Responsive Design Checker, page Workshops, desktop: 
 
+  ![Workshops Desktop](./assets/images/screenshhot-responsive-desktop-workshops.png)
+
+### Manual Testing
+
+| Feature | Action | Expected result | Tested | Passed | Comments |
+| ------- | ------ | --------------- | ------ | ------ | -------- |
+| __NavBar__ |
+| Home | click on "Home" link | User is redirected to the Home page | yes | yes | - |
+| Coworking | click on "Coworking" link | User is redirected to the Coworking page | yes | yes | - |
+| Workshops | click on "Workshops" link | User is redirected to the Workshops page | yes | yes | - |
+| Booking | click on "Booking" link | User is redirected to the Booking page | yes | yes | - |
+| __Footer__ |
+| Email | click on "Email" link | User is redirected to email box | yes | yes | Email box opens in a new tab |
+| Adress | click on "Adress" link | User is redirected to Google Maps | yes | yes | Google Maps opens in a new tab |
+| Facebook icon | click on the Facebook icon | User is redirected to the Facebook page | yes | yes | Facebook opens in a new tab |
+| Instagram icon | click on the Instagram icon | User is redirected to the Instagram page | yes | yes | Instagram opens in a new tab |
+| TikTok icon | click on the TikTok icon | User is redirected to the TikTok page | yes | yes | TikTok opens in a new tab |
+| X-Twitter icon | click on the X-Twitter icon | User is redirected to the X-Twitter page | yes | yes | X-Twitter opens in a new tab |
+| __Coworking__ |
+| "Send Request" Button | click on the "Send Request" button | User is redirected to the Booking page | yes | yes | - |
+| __Workshops__ |
+| "Send Request" Button | click on the "Send Request" button | User is redirected to the Booking page | yes | yes | all the buttons in the section have the same functionality |
+| __Booking__ |
+| First Name Input | Enter First Name | User has entered the First Name | yes | yes | If First Name is missing, message error will appear by clicking on send request |
+| Last Name Input | Enter Last Name | User has entered the Last Name | yes | yes | If Last Name is missing, message error will appear by clicking on send request |
+| Email Adress Input | Enter Email Adress | User has entered the Email Adress| yes | yes | If Email Adress is missing or not correctly written, message error will appear by clicking on send request.|
+| Phone Number Input | Enter Phone Number | User has entered the Phone Number | yes | yes | - |
+| Coworking or Workshop Checkbox | Click on Coworking or Workshop | User has checked the field if applicable | yes | yes | - |
+| Textarea Input | Enter the request in the Textarea | User has written the request | yes | yes | If text in the Textarea is missing, message error will appear by clicking on send request |
+| "Send Request" Button | click on the "Send Request" button | User is redirected to the Response page | yes | yes | - |
 
 ### Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- __HTML__
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_uri)
 
-### Unfixed Bugs
+  - __Home Page__
+
+  ![Home page](./assets/images/screenshhot-html_check-index.png)
+
+  - __Coworking Page__
+
+  ![Coworking page](./assets/images/screenshhot-html_check-coworking.png)
+
+  - __Workshops Page__
+
+  ![Workshops page](./assets/images/screenshhot-html_check-workshops.png)
+
+  - __Booking Page__
+
+  ![Booking page](./assets/images/screenshhot-html_check-booking.png)
+
+  - __Response Page__
+
+  ![Response page](./assets/images/screenshhot-html_check-response.png)
+
+- __CSS__
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+
+  ![CSS](./assets/images/screenshhot-jigsaw-css.png)
+
+### Lighthouse Report
+The Lightouse Tool has tested the accessibility and performance of each page.
+
+ - __Home Page__
+
+  ![Home page](./assets/images/screenshhot-lighthouse-index.png)
+
+  - __Coworking Page__
+
+  ![Coworking page](./assets/images/screenshhot-lighthouse-coworking.png)
+
+  - __Workshops Page__
+
+  ![Workshops page](./assets/images/screenshhot-lighthouse-workshops.png)
+
+  - __Booking Page__
+
+  ![Booking page](./assets/images/screenshhot-lighthouse-booking.png)
+
+  - __Response Page__
+
+  ![Response page](./assets/images/screenshhot-lighthouse-response.png)
+
+### Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
