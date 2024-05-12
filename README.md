@@ -138,7 +138,17 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- In order to test the correct __funcionality__ the website was tested on following browser:
+  - Chrome
+  ![Chrome](./assets/images/screenshhot-chrome.png)
+  - Firefox
+  ![Firefox](./assets/images/screenshhot-firefox.png)
+  - Safari
+  ![Safari](./assets/images/screenshhot-safari.png)
+
+- In order to test the correct __responsiveness__ by devtools in Chrome and Firefox:
+
+ In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -183,9 +193,4 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-
 
