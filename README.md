@@ -256,6 +256,7 @@ The Lightouse Tool has tested the accessibility and performance of each page.
   - Photos in section gallery in the media query from 992px are not on one raw --> Solution: resize images in the media query.
   - Heading in section gallery is missing --> Solution: add heading in HTML and set to to hidden in css.
   - With small screens until width 339 the header overflows the main section --> add new media query and adapt the margin-top property for main.
+  - Send request button in coworking and workshops sections were at the beginning a button element with an "a href" element inside, this was wrong --> Solution delete button element, add role to "a href" element and set it to button.
 
 - __Unsolved Bugs__
   - None.
