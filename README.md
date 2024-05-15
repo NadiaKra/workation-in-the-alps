@@ -125,6 +125,12 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
 - Oswald Google Font was used to make headings catchy and increase the attractiveness of the site.
 - Quicksand Google Font was used as the main font of the site to assure the easy readibility of the content in the site.
 
+### Wireframes
+
+__Mobile Devices__
+- [Home Page, Mobile Screen](./assets/images/screenshot-wireframe-home-mobile.png)
+- [Home Page, Mobile Screen](./assets/images/screenshot-wireframe-home-mobile.png)
+
 ## Technology Used
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> was used as the base of the site.
