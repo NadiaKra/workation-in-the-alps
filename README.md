@@ -129,7 +129,24 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
 
 __Mobile Devices__
 - [Home Page, Mobile Screen](./assets/images/screenshot-wireframe-home-mobile.png)
-- [Home Page, Mobile Screen](./assets/images/screenshot-wireframe-home-mobile.png)
+- [Coworking Page, Mobile Screen](./assets/images/screenshot-wireframe-coworking-mobile.png)
+- [Workshops Page, Mobile Screen](./assets/images/screenshot-wireframe-workshops-mobile.png)
+- [Booking Page, Mobile Screen](./assets/images/screenshot-wireframe-booking-mobile.png)
+- [Response Page, Mobile Screen](./assets/images/screenshot-wireframe-response-mobile.png)
+
+__Tablets__
+- [Home Page, Tablet Screen](./assets/images/screenshot-wireframe-home-tablet.png)
+- [Coworking Page, Tablet Screen](./assets/images/screenshot-wireframe-coworking-tablet.png)
+- [Workshops Page, Tablet Screen](./assets/images/screenshot-wireframe-workshops-tablet.png)
+- [Booking Page, Tablet Screen](./assets/images/screenshot-wireframe-booking-tablet.png)
+- [Response Page, Tablet Screen](./assets/images/screenshot-wireframe-response-tablet.png)
+
+__Laptops and bigger__
+- [Home Page, Laptop Screen](./assets/images/screenshot-wireframe-home-laptop.png)
+- [Coworking Page, Laptop Screen](./assets/images/screenshot-wireframe-coworking-laptop.png)
+- [Workshops Page, Laptop Screen](./assets/images/screenshot-wireframe-workshops-laptop.png)
+- [Booking Page, Laptop Screen](./assets/images/screenshot-wireframe-booking-laptop.png)
+- [Response Page, Laptop Screen](./assets/images/screenshot-wireframe-response-laptop.png)
 
 ## Technology Used
 
