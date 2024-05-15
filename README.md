@@ -4,7 +4,7 @@ Workation in the Alps is a website that wants to offer the possibility for remot
 
 The site can be reached by this <a href="https://nadiakra.github.io/workation-in-the-alps/" target="_blank">link.</a> 
 
-![Responsive Design](./assets/images/screenshot-responsive-design.png)
+![Responsive Design](./readme-docs/screenshot-responsive-design.png)
 
 ## User Stories
 
