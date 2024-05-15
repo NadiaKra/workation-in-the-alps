@@ -36,9 +36,9 @@ The last page called "Response" contains the response message, that user receive
   - "Home" was added to the NavBar in a second moment to improve user experience, as otherwise user would not know how to come back to the home page while navigating in one of the other pages.
   - The first image shows the NavBar for small screens and the second the NavBar for larger screens from 768px.
 
-![Nav Bar Small Screens](./assets/images/screenshhot-navbar-small.png) 
+![Nav Bar Small Screens](./readme-docs/screenshhot-navbar-small.png) 
 
-![Nav Bar Large Screens](./assets/images/screenshhot-navbar-large.png) 
+![Nav Bar Large Screens](./readme-docs/screenshhot-navbar-large.png) 
 
 - __Home page image__
 
@@ -46,14 +46,14 @@ The last page called "Response" contains the response message, that user receive
   - The user will have the possibliity to have the most of the image element as the claim box adapts the dimenson when screens become larger.
   - This section should give the user a visual impression of the village and its uniqueness combination of work and nature. The goal is to gain the interest of the user, who wants at this point more information.
 
-![Home Page Image](./assets/images/screenshhot-homepage-image.png)
+![Home Page Image](./readme-docs/screenshhot-homepage-image.png)
 
 - __About us Section__
 
   - The About Us section will provide information about the background and the story behind the the concept of Workation in the Alps. 
   - The user will gain from the first moment the sense of community that should convice the user to choose this village as the next remote working place.  
 
-![About us](./assets/images/screenshhot-aboutus.png)
+![About us](./readme-docs/screenshhot-aboutus.png)
 
 - __Gallery Section__
 
@@ -61,7 +61,7 @@ The last page called "Response" contains the response message, that user receive
   - The pictures are fully responsive and it is planned to change them regularly at least twice a year to have seasonal relevant pictures.
   - The heading is not visible thanks to the display-none property in css, but reachable for seo reasons.
 
-![Gallery](./assets/images/screenshhot-gallery.png)
+![Gallery](./readme-docs/screenshhot-gallery.png)
 
 - __The Footer__ 
 
@@ -69,7 +69,7 @@ The last page called "Response" contains the response message, that user receive
   - The user gains in this section all the valuable information to get in touch and find the geographical position of the village and to stay in touch through social media. 
   - The footer will have a top-border to visualise the end of the main content.
 
-![Footer](./assets/images/screenshot-footer.png)
+![Footer](./readme-docs/screenshot-footer.png)
 
 - __Coworking Page__
 
@@ -77,7 +77,7 @@ The last page called "Response" contains the response message, that user receive
   - The image is an important element as the user can visualize how the working place looks like.
   - The user will quickly understand the information provided thanks to the simple page structure and will have the possibility to send directly a request. The send request button will bring the user directly to the booking form page.
 
-![Coworking Elements](./assets/images/screenshhot-coworking-elements.png)
+![Coworking Elements](./readme-docs/screenshhot-coworking-elements.png)
 
 - __Workshops Page__
 
@@ -85,21 +85,21 @@ The last page called "Response" contains the response message, that user receive
   - After each workshop description the user will have the possibility to click on the request button that redirects to the booking page.
   - The user will have all information in a simple structured form.
 
-![Workshops Elements](./assets/images/screenshhot-workhsops-element.png)
+![Workshops Elements](./readme-docs/screenshhot-workhsops-element.png)
 
 - __Booking Page__
 
   - This page will allow the user to send general requests. The user will be able specify if interested in "Coworking" or "Workshops" or both. The user will be asked to submit at least the full name, an email adress and a text regarding the request. 
   - Placeholder text will guide the user to fill the form correctly and avoid missunderstandings.
 
-![Booking Form](./assets/images/screenshhot-booking-form.png)
+![Booking Form](./readme-docs/screenshhot-booking-form.png)
 
 - __Response Page__
 
   - This page appears after submitting the contact form. 
   - The user receives a thank you for submitting message with the advice that the team will come back to the request as soon as possible.
 
-![Response Page](./assets/images/screenshhot-response.png)
+![Response Page](./readme-docs/screenshhot-response.png)
 
 ### Features Left to Implement
 
@@ -111,7 +111,7 @@ The last page called "Response" contains the response message, that user receive
 
 The design used is based on neutral colours. As the site includes many images with different colour paths the user's attention should not be losed by a colour overload. 
 
-![Colour Scheme](./assets/images/screenshhot-color-scheme.png)
+![Colour Scheme](./readme-docs/screenshhot-color-scheme.png)
 
 - HEX colours #393939, #515151 and #000000 are used for text design
 - HEX colours #FFFFFF and #E9E3D9 are used for backgrounds. #E9E3D9 is used in the RBGA form with its transparency property.
@@ -120,7 +120,7 @@ The design used is based on neutral colours. As the site includes many images wi
 
 To select the font the platform <a href="https://www.fontpair.co/all" target="_blank">Fontpair</a> was consulted.
 
-![Typography](./assets/images/screenshhot-typography.png)
+![Typography](./readme-docs/screenshhot-typography.png)
 
 - Oswald Google Font was used to make headings catchy and increase the attractiveness of the site.
 - Quicksand Google Font was used as the main font of the site to assure the easy readibility of the content in the site.
@@ -128,25 +128,25 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
 ### Wireframes
 
 __Mobile Devices__
-- [Home Page, Mobile Screen](./assets/images/screenshot-wireframe-home-mobile.png)
-- [Coworking Page, Mobile Screen](./assets/images/screenshot-wireframe-coworking-mobile.png)
-- [Workshops Page, Mobile Screen](./assets/images/screenshot-wireframe-workshops-mobile.png)
-- [Booking Page, Mobile Screen](./assets/images/screenshot-wireframe-booking-mobile.png)
-- [Response Page, Mobile Screen](./assets/images/screenshot-wireframe-response-mobile.png)
+- [Home Page, Mobile Screen](./readme-docs/screenshot-wireframe-home-mobile.png)
+- [Coworking Page, Mobile Screen](./readme-docs/screenshot-wireframe-coworking-mobile.png)
+- [Workshops Page, Mobile Screen](./readme-docs/screenshot-wireframe-workshops-mobile.png)
+- [Booking Page, Mobile Screen](./readme-docs/screenshot-wireframe-booking-mobile.png)
+- [Response Page, Mobile Screen](./readme-docs/screenshot-wireframe-response-mobile.png)
 
 __Tablets__
-- [Home Page, Tablet Screen](./assets/images/screenshot-wireframe-home-tablet.png)
-- [Coworking Page, Tablet Screen](./assets/images/screenshot-wireframe-coworking-tablet.png)
-- [Workshops Page, Tablet Screen](./assets/images/screenshot-wireframe-workshops-tablet.png)
-- [Booking Page, Tablet Screen](./assets/images/screenshot-wireframe-booking-tablet.png)
-- [Response Page, Tablet Screen](./assets/images/screenshot-wireframe-response-tablet.png)
+- [Home Page, Tablet Screen](./readme-docs/screenshot-wireframe-home-tablet.png)
+- [Coworking Page, Tablet Screen](./readme-docs/screenshot-wireframe-coworking-tablet.png)
+- [Workshops Page, Tablet Screen](./readme-docs/screenshot-wireframe-workshops-tablet.png)
+- [Booking Page, Tablet Screen](./readme-docs/screenshot-wireframe-booking-tablet.png)
+- [Response Page, Tablet Screen](./readme-docs/screenshot-wireframe-response-tablet.png)
 
 __Laptops and bigger__
-- [Home Page, Laptop Screen](./assets/images/screenshot-wireframe-home-laptop.png)
-- [Coworking Page, Laptop Screen](./assets/images/screenshot-wireframe-coworking-laptop.png)
-- [Workshops Page, Laptop Screen](./assets/images/screenshot-wireframe-workshops-laptop.png)
-- [Booking Page, Laptop Screen](./assets/images/screenshot-wireframe-booking-laptop.png)
-- [Response Page, Laptop Screen](./assets/images/screenshot-wireframe-response-laptop.png)
+- [Home Page, Laptop Screen](./readme-docs/screenshot-wireframe-home-laptop.png)
+- [Coworking Page, Laptop Screen](./readme-docs/screenshot-wireframe-coworking-laptop.png)
+- [Workshops Page, Laptop Screen](./readme-docs/screenshot-wireframe-workshops-laptop.png)
+- [Booking Page, Laptop Screen](./readme-docs/screenshot-wireframe-booking-laptop.png)
+- [Response Page, Laptop Screen](./readme-docs/screenshot-wireframe-response-laptop.png)
 
 ## Technology Used
 
@@ -182,13 +182,13 @@ To make a local copy of the "Workation in the Alps" project, there is the possib
 
 - In order to test the correct __compatability__ the website was tested on following browser:
   - Chrome
-  ![Chrome](./assets/images/screenshhot-chrome.png)
+  ![Chrome](./readme-docs/screenshhot-chrome.png)
 
   - Firefox
-  ![Firefox](./assets/images/screenshhot-firefox.png)
+  ![Firefox](./readme-docs/screenshhot-firefox.png)
 
   - Safari
-  ![Safari](./assets/images/screenshhot-safari.png)
+  ![Safari](./readme-docs/screenshhot-safari.png)
 
 - In order to test the correct __responsiveness__ devtools in Chrome and Firefox were used. In addition __all the pages (Homepage, Coworking, Workshops, Booking and Response)__ were checked in all the available screen sizes with the 
   <a href="https://responsivedesignchecker.com/" target="_blank">Responsive Design Checker</a> and full page screenshot with the Chrome Extension <a href="https://gofullpage.com/" target="_blank">Go Full Page</a>
@@ -198,71 +198,71 @@ To make a local copy of the "Workation in the Alps" project, there is the possib
   
     - Small screen, Iphone SE, 375x667:  
 
-    ![Home small screen](./assets/images/screenshot-responsive-home-375x667.png)
+    ![Home small screen](./readme-docs/screenshot-responsive-home-375x667.png)
   
     - Middle screen, Ipad Mini, 768x1024: 
 
-    ![Home middle screen](./assets/images/screenshot-responsive-home-768x1024.png)
+    ![Home middle screen](./readme-docs/screenshot-responsive-home-768x1024.png)
 
     - Large screen, Laptop, 1920x1080: 
 
-    ![Home large screen](./assets/images/screenshot-responsive-home-1920x1080.png)
+    ![Home large screen](./readme-docs/screenshot-responsive-home-1920x1080.png)
 
   - __Coworking page__
   
     - Small screen, Iphone SE, 375x667:  
 
-    ![Coworking small screen](./assets/images/screenshot-responsive-coworking-375x667.png)
+    ![Coworking small screen](./readme-docs/screenshot-responsive-coworking-375x667.png)
   
     - Middle screen, Ipad Mini, 768x1024: 
 
-    ![Coworking middle screen](./assets/images/screenshot-responsive-coworking-768x1024.png)
+    ![Coworking middle screen](./readme-docs/screenshot-responsive-coworking-768x1024.png)
 
     - Large screen, Laptop, 1920x1080: 
     
-    ![Coworking large screen](./assets/images/screenshot-responsive-coworking-1920x1080.png)
+    ![Coworking large screen](./readme-docs/screenshot-responsive-coworking-1920x1080.png)
 
   - __Workshops page__
   
     - Small screen, Iphone SE, 375x667:  
 
-    ![Workshops small screen](./assets/images/screenshot-responsive-workshops-375x667.png)
+    ![Workshops small screen](./readme-docs/screenshot-responsive-workshops-375x667.png)
   
     - Middle screen, Ipad Mini, 768x1024: 
 
-    ![Workshops middle screen](./assets/images/screenshot-responsive-workshops-768x1024.png)
+    ![Workshops middle screen](./readme-docs/screenshot-responsive-workshops-768x1024.png)
 
     - Large screen, Laptop, 1920x1080: 
     
-    ![Workshops large screen](./assets/images/screenshot-responsive-workshops-1920x1080.png)
+    ![Workshops large screen](./readme-docs/screenshot-responsive-workshops-1920x1080.png)
 
   - __Booking page__
   
     - Small screen, Iphone SE, 375x667:  
 
-    ![Booking small screen](./assets/images/screenshot-responsive-booking-375x667.png)
+    ![Booking small screen](./readme-docs/screenshot-responsive-booking-375x667.png)
   
     - Middle screen, Ipad Mini, 768x1024: 
 
-    ![Booking middle screen](./assets/images/screenshot-responsive-booking-768x1024.png)
+    ![Booking middle screen](./readme-docs/screenshot-responsive-booking-768x1024.png)
 
     - Large screen, Laptop, 1920x1080: 
     
-    ![Booking large screen](./assets/images/screenshot-responsive-booking-1920x1080.png)  
+    ![Booking large screen](./readme-docs/screenshot-responsive-booking-1920x1080.png)  
 
   - __Request page__
   
     - Small screen, Iphone SE, 375x667:  
 
-    ![Request small screen](./assets/images/screenshot-responsive-request-375x667.png)
+    ![Request small screen](./readme-docs/screenshot-responsive-request-375x667.png)
   
     - Middle screen, Ipad Mini, 768x1024: 
 
-    ![Request middle screen](./assets/images/screenshot-responsive-request-768x1024.png)
+    ![Request middle screen](./readme-docs/screenshot-responsive-request-768x1024.png)
 
     - Large screen, Laptop, 1920x1080: 
     
-    ![Request large screen](./assets/images/screenshot-responsive-request-1920x1080.png) 
+    ![Request large screen](./readme-docs/screenshot-responsive-request-1920x1080.png) 
 
 ### Manual Testing
 
@@ -300,51 +300,51 @@ No errors were returned when passing through the official [W3C validator](https:
 
   - __Home Page__
 
-  ![Home page](./assets/images/screenshhot-html_check-index.png)
+  ![Home page](./readme-docs/screenshhot-html_check-index.png)
 
   - __Coworking Page__
 
-  ![Coworking page](./assets/images/screenshhot-html_check-coworking.png)
+  ![Coworking page](./readme-docs/screenshhot-html_check-coworking.png)
 
   - __Workshops Page__
 
-  ![Workshops page](./assets/images/screenshhot-html_check-workshops.png)
+  ![Workshops page](./readme-docs/screenshhot-html_check-workshops.png)
 
   - __Booking Page__
 
-  ![Booking page](./assets/images/screenshhot-html_check-booking.png)
+  ![Booking page](./readme-docs/screenshhot-html_check-booking.png)
 
   - __Response Page__
 
-  ![Response page](./assets/images/screenshhot-html_check-response.png)
+  ![Response page](./readme-docs/screenshhot-html_check-response.png)
 
 - __CSS__
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
 
-  ![CSS](./assets/images/screenshhot-jigsaw-css.png)
+  ![CSS](./readme-docs/screenshhot-jigsaw-css.png)
 
 ### Lighthouse Report
 The Lightouse Tool has tested the accessibility and performance of each page.
 
  - __Home Page__
 
-  ![Home page](./assets/images/screenshhot-lighthouse-index.png)
+  ![Home page](./readme-docs/screenshhot-lighthouse-index.png)
 
   - __Coworking Page__
 
-  ![Coworking page](./assets/images/screenshhot-lighthouse-coworking.png)
+  ![Coworking page](./readme-docs/screenshhot-lighthouse-coworking.png)
 
   - __Workshops Page__
 
-  ![Workshops page](./assets/images/screenshhot-lighthouse-workshops.png)
+  ![Workshops page](./readme-docs/screenshhot-lighthouse-workshops.png)
 
   - __Booking Page__
 
-  ![Booking page](./assets/images/screenshhot-lighthouse-booking.png)
+  ![Booking page](./readme-docs/screenshhot-lighthouse-booking.png)
 
   - __Response Page__
 
-  ![Response page](./assets/images/screenshhot-lighthouse-response.png)
+  ![Response page](./readme-docs/screenshhot-lighthouse-response.png)
 
 ### Bugs
 
