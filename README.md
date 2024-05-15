@@ -132,15 +132,32 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
 - <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">CSS Flexbox</a> was used to arrange items on the pages.
 - <a href="https://www.gitpod.io/" target="_blank">Gitpod</a> was used to develop the website.
 - <a href="https://github.com/" target="_blank">Github</a> was used to host the website.
+- <a href="https://pages.github.com/" target="_blank">Github Pages</a> was used to deploy the website.
 - <a href="https://imageresizer.com/" target="_blank">Imageresizer</a> was used to rezise images for the website and the READ.ME document.
 - <a href="https://cloudconvert.com/webp-converter" target="_blank">WEBP Converter</a> was used to convert images for the webpage to WEBP.
 - <a href="https://favicon.io/favicon-generator/" target="_blank">FavIcon Generator</a> was used to create the FavIcon for the site.
 
+## Deployment
+
+### Deployment to GitHub Pages
+
+- The site was deployed to GitHub Pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the __Main Branch__ and click "save".
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here: <a href="https://nadiakra.github.io/workation-in-the-alps/" target="_blank">Workation in the Alps</a>
+
+### Local Deployment
+
+To make a local copy of the "Workation in the Alps" project, there is the possibility to clone the repository by typing the following command in the IDE terminal:
+- `git clone https://github.com/NadiaKra/workation-in-the-alps.git`
+
 ## Testing 
 
-### Functionality and Responsiveness
+### Compatability and Responsiveness
 
-- In order to test the correct __funcionality__ the website was tested on following browser:
+- In order to test the correct __compatability__ the website was tested on following browser:
   - Chrome
   ![Chrome](./assets/images/screenshhot-chrome.png)
 
@@ -150,21 +167,79 @@ To select the font the platform <a href="https://www.fontpair.co/all" target="_b
   - Safari
   ![Safari](./assets/images/screenshhot-safari.png)
 
-- In order to test the correct __responsiveness__ devtools in Chrome and Firefox were userd. In addition __all the pages (Homepage, Coworking, Workshops, Booking and Response)__ were checked in all the available screen sizes with the 
-  <a href="https://responsivedesignchecker.com/" target="_blank">Responsive Design Checker</a>
+- In order to test the correct __responsiveness__ devtools in Chrome and Firefox were used. In addition __all the pages (Homepage, Coworking, Workshops, Booking and Response)__ were checked in all the available screen sizes with the 
+  <a href="https://responsivedesignchecker.com/" target="_blank">Responsive Design Checker</a> and full page screenshot with the Chrome Extension <a href="https://gofullpage.com/" target="_blank">Go Full Page</a>
   Here are some images to prove the checks:
 
-  - Chrome devtools, page Coworking, mobile: 
-
-  ![Coworking Mobilel](./assets/images/screenshhot-responsive-mobile-coworking.png)
+  - __Home page__
   
-  - Responsive Design Checker, page Booking, tablet: 
+    - Small screen, Iphone SE, 375x667:  
 
-  ![Booking Tablet](./assets/images/screenshhot-responsive-tablet-booking.png)
+    ![Home small screen](./assets/images/screenshot-responsive-home-375x667.png)
+  
+    - Middle screen, Ipad Mini, 768x1024: 
 
-  - Responsive Design Checker, page Workshops, desktop: 
+    ![Home middle screen](./assets/images/screenshot-responsive-home-768x1024.png)
 
-  ![Workshops Desktop](./assets/images/screenshhot-responsive-desktop-workshops.png)
+    - Large screen, Laptop, 1920x1080: 
+
+    ![Home large screen](./assets/images/screenshot-responsive-home-1920x1080.png)
+
+  - __Coworking page__
+  
+    - Small screen, Iphone SE, 375x667:  
+
+    ![Coworking small screen](./assets/images/screenshot-responsive-coworking-375x667.png)
+  
+    - Middle screen, Ipad Mini, 768x1024: 
+
+    ![Coworking middle screen](./assets/images/screenshot-responsive-coworking-768x1024.png)
+
+    - Large screen, Laptop, 1920x1080: 
+    
+    ![Coworking large screen](./assets/images/screenshot-responsive-coworking-1920x1080.png)
+
+  - __Workshops page__
+  
+    - Small screen, Iphone SE, 375x667:  
+
+    ![Workshops small screen](./assets/images/screenshot-responsive-workshops-375x667.png)
+  
+    - Middle screen, Ipad Mini, 768x1024: 
+
+    ![Workshops middle screen](./assets/images/screenshot-responsive-workshops-768x1024.png)
+
+    - Large screen, Laptop, 1920x1080: 
+    
+    ![Workshops large screen](./assets/images/screenshot-responsive-workshops-1920x1080.png)
+
+  - __Booking page__
+  
+    - Small screen, Iphone SE, 375x667:  
+
+    ![Booking small screen](./assets/images/screenshot-responsive-booking-375x667.png)
+  
+    - Middle screen, Ipad Mini, 768x1024: 
+
+    ![Booking middle screen](./assets/images/screenshot-responsive-booking-768x1024.png)
+
+    - Large screen, Laptop, 1920x1080: 
+    
+    ![Booking large screen](./assets/images/screenshot-responsive-booking-1920x1080.png)  
+
+  - __Request page__
+  
+    - Small screen, Iphone SE, 375x667:  
+
+    ![Request small screen](./assets/images/screenshot-responsive-request-375x667.png)
+  
+    - Middle screen, Ipad Mini, 768x1024: 
+
+    ![Request middle screen](./assets/images/screenshot-responsive-request-768x1024.png)
+
+    - Large screen, Laptop, 1920x1080: 
+    
+    ![Request large screen](./assets/images/screenshot-responsive-request-1920x1080.png) 
 
 ### Manual Testing
 
@@ -264,15 +339,6 @@ The Lightouse Tool has tested the accessibility and performance of each page.
 ### Mistakes and Lessons Learned
 
 At the beginning of the project were some mistakes done in setting the first css properties along the parent-descendent rule. I have learned to use different background colors for header, main, body and footer in the very first stage of the development to better understand how the different elements are working with the defined css properties. Another mistake at the beginning was the lack of structure as I didn't use Flexbox properties properly. I have learned during the project the importance of CSS structure.
-
-## Deployment
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the __Main Branch__ and click "save".
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here: <a href="https://nadiakra.github.io/workation-in-the-alps/" target="_blank">Workation in the Alps</a>
 
 ## Credits 
 
